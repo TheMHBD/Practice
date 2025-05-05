@@ -11,5 +11,6 @@ int main(){
     cout << "enter a number: ";
     cin >> num;
     cout << "The Entered number : " <<num;
+    cout << "bug fixed";
     return 0;
 }
