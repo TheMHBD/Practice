@@ -12,5 +12,7 @@ int main(){
     cin >> num;
     cout << "The Entered number : " <<num;
     cout << "bug fixed";
+    cout << "cool feature";
+    cout << "bug fixed2";
     return 0;
 }
