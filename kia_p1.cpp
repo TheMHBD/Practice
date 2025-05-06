@@ -20,5 +20,8 @@ int main(){
     cout << "the main branch continue2";
     //
 
+    //
+    cout << "bug2 fixed";
+    cout << "bug2 fixed2";
     return 0;
 }
