@@ -18,5 +18,8 @@ int main(){
     //
     cout << "the main branch started";
     cout << "the main branch continue";
+    //
+    cout << "bug2 fixed";
+    cout << "bug2 fixed2";
     return 0;
 }
