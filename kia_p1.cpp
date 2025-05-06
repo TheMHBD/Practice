@@ -12,5 +12,6 @@ int main(){
     cin >> num;
     cout << "The Entered number : " <<num;
     cout << "bug fixed";
+    cout << "a very new cool feature";
     return 0;
 }
