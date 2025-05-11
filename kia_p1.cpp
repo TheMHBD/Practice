@@ -1,5 +1,5 @@
 #include<iostream>
-
+#include<ctime>
 
 /*
 namespace
@@ -25,7 +25,8 @@ typedef double BIT_32;
 using BIT_16 = int;
 
 
-
+double surfaceArea(double length, double width);
+void minMax (double array[],int size);
 int main(){
 
 
@@ -107,7 +108,36 @@ for(int i=1;i<=10;i=i+1){
     }
 }
 
+srand(time(NULL));
+int randomNumber = rand();
+cout<< "randomNumber is: "<<randomNumber<<'\n';
 
-   return 0;
+// functions
+int legnth = 3.5;
+int width = 4;
+double area = surfaceArea(legnth,width);
+cout<<"the area is: "<<area<<'\n';
+
+
+// array
+double numberList[] = {10 ,12.5, 15};
+int numListSize = sizeof(numberList)/sizeof(numberList[0]);
+cout << "numListSize is: "<< numListSize<<'\n';
+
+for(int i=0; i<numListSize;i++)
+{
+    cout<<numberList[i]<<'\n';
 }
 
+   return 0;
+
+}
+
+double surfaceArea(double length, double width){
+    double area = length*width;
+    return area;
+}
+
+void minMax (double array[],int size){
+    cout<<"minmax\n";
+}
