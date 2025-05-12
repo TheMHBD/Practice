@@ -2,5 +2,7 @@
     "files.associations": {
         "iostream": "cpp",
         "xstring": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "F:/maktabkhoone/C++/Practice",
+    "cmake.ignoreCMakeListsMissing": true
 }
