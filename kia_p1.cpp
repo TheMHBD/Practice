@@ -132,11 +132,7 @@ int main()
         cout << numberList[i] << '\n';
     }
 
-    // 2d array
-    string cars[][3] = {{"samad", "peg", "pride"},
-                        {"saina", "rd", "camry"},
-                        {"lambo", "maza", "jack"}};
-
+ 
                         
     return 0;
 }
